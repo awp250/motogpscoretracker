@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.splash-screen,
+.enter-names,
+.venues,
+.enter-results {
+  display: none;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+.venue-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.venue-list li {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
